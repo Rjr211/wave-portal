@@ -27,6 +27,12 @@ await waveTxn.wait();
 
 //Call function to see if waves # changed
 waveCount = await waveContract.getTotalWaves();
+
+//Simulate others calling our function
+waveTxn = await waveContract.connect(randomPerson).wave();
+await waveTxn.wait();
+
+waveCount = await waveContract.getTotalWaves();
 };
 
 const runMain = async () => {
