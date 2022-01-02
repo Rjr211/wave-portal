@@ -74,8 +74,8 @@
       ]
     },
     "/Users/robertrobinson/Desktop/Coding_projects/wave-portal/contracts/WavePortal.sol": {
-      "lastModificationDate": 1640192660532,
-      "contentHash": "6628bc40617bccb293ffec127104407b",
+      "lastModificationDate": 1641146599369,
+      "contentHash": "3e6835ff5cd3c85bc7702c6006b75d78",
       "sourceName": "contracts/WavePortal.sol",
       "solcConfig": {
         "version": "0.8.0",

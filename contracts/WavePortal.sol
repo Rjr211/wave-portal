@@ -15,7 +15,9 @@ contract WavePortal {
     }
 
     function wave() public {
+        //totalWaves is a state variable = perm stored in contract storage.
         totalWaves += 1;
+        //msg.sender = wallet address of person who called function
         console.log("%s has waved!", msg.sender);
     }
 
